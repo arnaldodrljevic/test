@@ -1,1 +1,22 @@
-::placeholder
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.naslov {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    color: white;
+}
+
+.tekst {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: rgb(209, 209, 209);
+}
+
+.slika {
+    width: 350px;
+}
+
+.body {
+    background-color: black;
+}
