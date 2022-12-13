@@ -1,0 +1,118 @@
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0%;
+}
+
+.cjelina {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+
+.lijeva {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    width: 50%;
+    height: 100%;
+    gap: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.desna {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    background-color: blue;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.dole {
+    align-self: flex-end;
+    width: 100%;
+    height: 32.5%;
+    background-color: rgb(145, 145, 145);
+    color: rgb(39, 39, 39);
+    text-align: center;
+    justify-content: center;
+    text-justify: distribute;
+}
+
+.slika1 {
+    grid-column: 1;
+    grid-row: 1 / span 3;
+}
+
+.slika2 {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+}
+
+.slika3 {
+    grid-column: 3;
+    grid-row: 1 / span 3;
+}
+
+.slika4 {
+    grid-column: 2;
+    grid-row: 3 / span 2;
+}
+
+.slika5 {
+    grid-column: 1;
+    grid-row: 4 / span 3;
+}
+
+.slika6 {
+    grid-column: 2;
+    grid-row: 5 / span 2;
+}
+
+.slika7 {
+    grid-column: 3;
+    grid-row: 4 / span 3;
+}
+
+.slika8 {
+    grid-column: 1 / span 3;
+    grid-row: 7 / span 3;
+}
+
+.slika1-1 {
+    width: 100%;
+    height: 100%;
+}
+.slika2-1 {
+    width: 100%;
+    height: 100%;
+}
+.slika3-1 {
+    width: 100%;
+    height: 100%;
+}
+.slika4-1 {
+    width: 100%;
+    height: 100%;
+}
+.slika5-1 {
+    width: 100%;
+    height: 100%;
+}
+.slika6-1 {
+    width: 100%;
+    height: 100%;
+}
+.slika7-1 {
+    width: 100%;
+    height: 100%;
+}
+.slika8-1 {
+    width: 100%;
+    height: 100%;
